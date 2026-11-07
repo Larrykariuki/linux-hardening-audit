@@ -80,5 +80,5 @@ But this conclusion does not necessarily establish that the entire system is fre
 -Debian package verification 
 -Network socket inspections
 -IPV4 and IPV6 multicast investigation
-system journal analysis 
-Basic Security incident documentation
+-system journal analysis 
+-Basic Security incident documentation
