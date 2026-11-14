@@ -65,7 +65,8 @@ pgrep -af firefox
 pstree -p
 top
 '''
-
+![running process](screenshots/.Understanding-running-processes-1.png)
+![running process 2](screenshots/.Understanding-running-processes-2.1.png)
 ### Lessons learnt 
 A process is a running instance of a program. Linux operating system assigns each process a process ID (PID). I can use these commands to 
 identify all running programs,inspect their activity and understand the relationship between parent and child processes
@@ -86,6 +87,8 @@ ip link show
 ip route
 ip -6 addr
 '''
+![network interface ip](screenshots/.Understanding-Network-Interfaces-and-ip.png)
+
 ### Lessons Learnt 
 Network interfaces connect my computer to networks. IP addresses identify devices or interfaces on a network, while routing information helps determine where network traffic
 should go 
@@ -104,6 +107,7 @@ ss -tun
 sudo ss -tulnp
 sudo lsof -i
 '''
+![network connections and ports](screenshots/.Understanding-network-connections-and-open-ports.png)
 ### Understanding the options in ss -tulnp:
 1. -t - Represent TCP sockets 
 2. -u - Represents UDP sockets
@@ -125,6 +129,9 @@ machine and investigate which processes owns them
 systemctl status NetworkManager
 systemctl list-units --type=service
 '''
+![services 1](screenshots/.Understanding-services.png)
+![services 2](screenshots/.Understanding-services-2.png)
+
 ### Lessons learnt
 Services are programs running in the background and can provide functions to the operating system. I can use systemctl to inspect their status
 and understand which services are running 
