@@ -65,8 +65,8 @@ pgrep -af firefox
 pstree -p
 top
 '''
-![running process](screenshots/.Understanding-running-processes-1.png)
-![running process 2](screenshots/.Understanding-running-processes-2.1.png)
+![running process](screenshots/Understanding-running-processes-1.png)
+![running process 2](screenshots/Understanding-running-processes-2.1.png)
 ### Lessons learnt 
 A process is a running instance of a program. Linux operating system assigns each process a process ID (PID). I can use these commands to 
 identify all running programs,inspect their activity and understand the relationship between parent and child processes
@@ -87,7 +87,7 @@ ip link show
 ip route
 ip -6 addr
 '''
-![network interface ip](screenshots/.Understanding-Network-Interfaces-and-ip.png)
+![network interface ip](screenshots/Understanding-Network-Interfaces-and-ip.png)
 
 ### Lessons Learnt 
 Network interfaces connect my computer to networks. IP addresses identify devices or interfaces on a network, while routing information helps determine where network traffic
@@ -107,7 +107,8 @@ ss -tun
 sudo ss -tulnp
 sudo lsof -i
 '''
-![network connections and ports](screenshots/.Understanding-network-connections-and-open-ports.png)
+![network connections and ports](screenshots/Understanding-network-connections-and-open-ports.png)
+
 ### Understanding the options in ss -tulnp:
 1. -t - Represent TCP sockets 
 2. -u - Represents UDP sockets
