@@ -31,7 +31,7 @@ I can use these commands to understand where iam, inspect the directory contents
 
 ## 3. Understanding users
 
-Commands and what I learned
+### Commands and what I have learned
 1. 'whoami' - Displays the username of the currently logged-in-user
 2. 'id' - Displays user and group identity inforamation
 
@@ -70,7 +70,7 @@ identify all running programs,inspect their activity and understand the relation
 who started them and how they relate to other processes
 
 ## 5. Understanding the Network interfaces and ip addresses
-Command and what I learnt
+### Command and what I learnt
 1. 'ip addr' - Displays networks interfaces and their ip addresses 
 2. 'ip link' - Displays the network interface information 
 3. 'ip route' - Displays the system routing table 
@@ -88,7 +88,7 @@ Network interfaces connect my computer to networks. IP addresses identify device
 should go 
 
 ## 6. Understanding Network Connections and open ports
-Commands used and what i learnt 
+### Commands used and what i learnt 
 1. 'ss -tuln' - Displays listening TCP ans UDP sockets without resolving service names
 2. 'ss -tun' - Displays TCP and UDP socket information.
 3. 'ss -tulnp' - Dispalys listening sockets and the associated process information
@@ -113,7 +113,7 @@ A listening port is waiting for incoming network communication by inspecting lis
 machine and investigate which processes owns them
 
 ## 7. Understanding services
-Commands and what I learnt 
+### Commands and what I learnt 
 1. 'Systemctl status' - Checks the status of a system service 
 2. 'Systemctl list-units --type=service' - Lists loaded service units
 
@@ -127,7 +127,7 @@ Services are programs running in the background and can provide functions to the
 and understand which services are running 
 
 ## 8. Understanding System logs
-Commands and what I learned 
+### Commands and what I learned 
 1. 'journalctl' - Displays system journal logs
 2. 'journalctl -b' - Displays logs from the current boot
 3. 'journalctl -p err' - Filters journal messages by error priority
@@ -157,7 +157,7 @@ sudo dpkg -V wsdd
 Package-management commands help me to identify installed software, determine where files came and check whether package files have verification differences
 
 ## 10. Working with command output 
-Command or operator and what I have learnt 
+### Command or operator and what I have learnt 
 1. 'grep' - Searches text for matching patterns 
 2. 'awk' - Processes and extract information from text
 3. '|' (pipe) - Passes the output of one command to another
@@ -174,7 +174,7 @@ I can combine commands to filter information and make it easier to investigate l
 Through these exercises, I learned that the linux command line is more than just a place to type commands. It is a very powerful environment for understanding
 and managing a computer system 
 
-I have developed foundations in:
+### I have developed foundations in:
 - Filesystem navigation
 - User and group identification 
 - Process inspection 
