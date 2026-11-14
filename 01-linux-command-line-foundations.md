@@ -26,8 +26,9 @@ cd ..
 cd ~
 mkdir my folder
 '''
-![ps aux output](screenshots/Understand-running-processes-1.png)
-![pstree output](screenshots/Understand-running-processes-2.png)
+![ps aux output](screenshots/Navigating-file-system1.png)
+![pstree output](screenshots/Navigating-the-file-system-2.png)
+
 ### Lessons learnt
 I can use these commands to understand where iam, inspect the directory contents and move around the linux filesystem
 
