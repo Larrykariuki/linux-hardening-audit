@@ -2,12 +2,12 @@
 
 ## 1. Introduction
 
-My objective was to underastand how to navigate the filesystem, identify users, inspect running processes, examine network connections
-and open ports on linux system and understand what was happening. The following are the commands that i have learnt and practised
+My objective was to understand how to navigate the filesystem, identify users, inspect running processes, examine network connections
+and open ports on linux system and understand what was happening. The following are the commands that i have learnt and practiced
 
 ## 2. Navigating the filesystem
 
-Command and what I learned
+### Command and what I learned
 
 1. 'pwd' - It displays my current working directory
 2. 'ls' - Lists the files and directories
@@ -46,7 +46,7 @@ Linux uses users and groups to manage access to files, directories and system re
 
 ## 4. Understanding Running Processes
 
-Command and what I learned
+### Commands and what I learned
 
 1. 'ps' - Displays information about running processes
 2. 'ps aux' - Displays a detailed list of running processes
