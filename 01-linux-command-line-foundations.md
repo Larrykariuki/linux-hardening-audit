@@ -36,14 +36,14 @@ I can use these commands to understand where iam, inspect the directory contents
 
 ### Commands and what I have learned
 1. 'whoami' - Displays the username of the currently logged-in-user
-2. 'id' - Displays user and group identity inforamation
+2. 'id' - Displays user and group identity information
 
 ### Examples
 '''bash
 whoami
 id
 '''
-
+![whoami and id output](screenshots/Understanding-users.png)
 ### Lessons learnt 
 Linux uses users and groups to manage access to files, directories and system resources
 
