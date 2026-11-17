@@ -19,11 +19,11 @@ and open ports on linux system and understand what was happening. The following 
 
 ### Examples
 '''bash
-pwd
-ls
-ls -la
-cd ..
-cd ~
+pwd,
+ls,
+ls -la,
+cd ..,
+cd ~,
 mkdir my folder
 '''
 ![ps aux output](screenshots/Navigating-file-system1.png)
