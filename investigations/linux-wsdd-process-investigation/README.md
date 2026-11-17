@@ -1,7 +1,7 @@
 # WSDD Process Investigation kali purple operating system
 
 **Investigation date:** 7 November 2026
-**System:** Kali linux
+**System:** Kali purple
 **Status:** CLOSED
 
 ## 1. Objective
