@@ -1,19 +1,19 @@
-# WSDD Process Investigation kali purple operating system
+# WSDD Process Investigation Kali Purple operating system
 
 **Investigation date:** 7 November 2026
-**System:** Kali purple
+**System:** Kali Purple
 **Status:** CLOSED
 
 ## 1. Objective
 
-The purpose of the investigation was to determine whether a running 'wsdd' process on my kali linux system was legitimate or harmful 
+The purpose of the investigation was to determine whether a running 'wsdd' process on my kali purple operating system (which is Debian-based Linux distribution variant of kali linux, that is preloaded with defensive-security tools for learning and practicing blue-team skills in an isolated homelab), was legitimate or harmful 
 when I ran ss -tulnp the command that lists every port on the machine that is open and waiting for connection,
-I saw two processes that were listening and that was 'wssd' and ollama. I investigated its parent process, installed packages, network
+I saw two processes that were listening and that was 'wsdd' and ollama. I investigated its parent process, installed packages, network
 activity , executable location and system logs
 
 ## 2. Process Identification
 The process command was 
-'python3/usr/bin/wssd'
+'python3/usr/bin/wsdd'
 The process was launched through the GVfs desktop file-management services as shown in the process tree below
 ``` text
 Systemd
