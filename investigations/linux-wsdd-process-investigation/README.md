@@ -15,7 +15,7 @@ activity , executable location and system logs
 The process command was 
 'python3/usr/bin/wssd'
 The process was launched through the GVfs desktop file-management services as shown in the process tree below
-'''text
+``` text
 Systemd
 |
 |___systemd --user
@@ -24,8 +24,8 @@ Systemd
       |
       |____gvfsd-wsdd
           |
-          |____python3/usr/bin/wssd 
-'''
+          |____python3/usr/bin/wsdd 
+```
 
 ## 3. Package Verification
 I checked which installed packages owned the relevant files
