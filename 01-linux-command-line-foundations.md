@@ -9,23 +9,23 @@ and open ports on linux system and understand what was happening. The following 
 
 ### Command and what I learned
 
-1. 'pwd' - It displays my current working directory
-2. 'ls' - Lists the files and directories
-3. 'ls -la' - Displays detailed information and including hidden files
-4. 'cd' - Changes my current directory
-5. 'cd ..' - Moves one directory level backwards
-6. 'cd ~' - Takes me back to my home directory
-7. 'mkdir' - Creates a new directory
+1. pwd - It displays my current working directory
+2. ls - Lists the files and directories
+3. ls -la - Displays detailed information and including hidden files
+4. cd - Changes my current directory
+5. cd .. - Moves one directory level backwards
+6. cd ~ - Takes me back to my home directory
+7. mkdir - Creates a new directory
 
 ### Examples
-'''bash
+```bash
 pwd,
 ls,
 ls -la,
 cd ..,
 cd ~,
 mkdir my folder
-'''
+```
 ![ps aux output](screenshots/Navigating-file-system1.png)
 ![pstree output](screenshots/Navigating-the-file-system-2.png)
 
@@ -35,14 +35,14 @@ I can use these commands to understand where iam, inspect the directory contents
 ## 3. Understanding users
 
 ### Commands and what I have learned
-1. 'whoami' - Displays the username of the currently logged-in-user
-2. 'id' - Displays user and group identity information
+1. whoami - Displays the username of the currently logged-in-user
+2. id - Displays user and group identity information
 
 ### Examples
-'''bash
+```bash
 whoami
 id
-'''
+```
 ![whoami and id output](screenshots/Understanding-users.png)
 ### Lessons learnt 
 Linux uses users and groups to manage access to files, directories and system resources
@@ -51,20 +51,20 @@ Linux uses users and groups to manage access to files, directories and system re
 
 ### Commands and what I learned
 
-1. 'ps' - Displays information about running processes
-2. 'ps aux' - Displays a detailed list of running processes
-3. 'pgrep' - Finds processes by name
-4. 'pstree' -  Displays processes in a parent-child tree
-5. 'top' - Displays running processes and resources usage in real time
+1. ps - Displays information about running processes
+2. ps aux - Displays a detailed list of running processes
+3. pgrep - Finds processes by name
+4. pstree -  Displays processes in a parent-child tree
+5. top - Displays running processes and resources usage in real time
 
 ### Examples
-'''bash
+```bash
 ps
 ps aux
 pgrep -af firefox
 pstree -p
 top
-'''
+```
 ![running process](screenshots/Understanding-running-processes-1.png)
 ![running process 2](screenshots/Understanding-running-processes-2.1.png)
 ### Lessons learnt 
@@ -75,18 +75,18 @@ who started them and how they relate to other processes
 
 ## 5. Understanding the Network interfaces and ip addresses
 ### Command and what I learnt
-1. 'ip addr' - Displays networks interfaces and their ip addresses 
-2. 'ip link' - Displays the network interface information 
-3. 'ip route' - Displays the system routing table 
-4. 'ip -6 addr' - Displays ipv6 addresses
+1. ip addr - Displays networks interfaces and their ip addresses 
+2. ip link - Displays the network interface information 
+3. ip route - Displays the system routing table 
+4. ip -6 addr - Displays ipv6 addresses
 
 ### Examples
-'''bash
+```bash
 ip addr
 ip link show
 ip route
 ip -6 addr
-'''
+```
 ![network interface ip](screenshots/Understanding-Network-Interfaces-and-ip.png)
 
 ### Lessons Learnt 
@@ -95,18 +95,18 @@ should go
 
 ## 6. Understanding Network Connections and open ports
 ### Commands used and what i learnt 
-1. 'ss -tuln' - Displays listening TCP ans UDP sockets without resolving service names
-2. 'ss -tun' - Displays TCP and UDP socket information.
-3. 'ss -tulnp' - Dispalys listening sockets and the associated process information
-4. 'lsof' - Lists open files and can help identify processes using network sockets
+1. ss -tuln - Displays listening TCP ans UDP sockets without resolving service names
+2. ss -tun - Displays TCP and UDP socket information.
+3. ss -tulnp - Dispalys listening sockets and the associated process information
+4. lsof - Lists open files and can help identify processes using network sockets
 
 ### Examples
-'''bash
+```bash
 ss -tuln
 ss -tun
 sudo ss -tulnp
 sudo lsof -i
-'''
+```
 ![network connections and ports](screenshots/Understanding-network-connections-and-open-ports.png)
 
 ### Understanding the options in ss -tulnp:
@@ -126,10 +126,10 @@ machine and investigate which processes owns them
 2. 'Systemctl list-units --type=service' - Lists loaded service units
 
 ### Examples 
-'''bash 
+```bash 
 systemctl status NetworkManager
 systemctl list-units --type=service
-'''
+```
 ![services 1](screenshots/.Understanding-services.png)
 ![services 2](screenshots/.Understanding-services-2.png)
 
@@ -139,45 +139,45 @@ and understand which services are running
 
 ## 8. Understanding System logs
 ### Commands and what I learned 
-1. 'journalctl' - Displays system journal logs
-2. 'journalctl -b' - Displays logs from the current boot
-3. 'journalctl -p err' - Filters journal messages by error priority
+1. journalctl - Displays system journal logs
+2. journalctl -b - Displays logs from the current boot
+3. journalctl -p err - Filters journal messages by error priority
 
 ### Examples
-'''bash
+```bash
 journalctl
 journalctl -b
 journalctl -p err
-'''
+```
 
 ### Lessons learnt 
 System logs provide information about events, errors and service activity, they help me to investigate what happened on my linux machine and when it happened
 
 ## 9. Understanding installed Packages
-1. 'dpkg - l' - This Lists installed debian packages 
-2.  'dpkg -S' -  Identifies which installed packages owns a particular file 
-3.  'dpkg -V' - This checks installed packages files for verification differences  
+1. dpkg - l - This Lists installed debian packages 
+2.  dpkg -S -  Identifies which installed packages owns a particular file 
+3.  dpkg -V - This checks installed packages files for verification differences  
 
 ### Examples 
-'''bash
+```bash
 dpkg -l
 dpkg -S /usr/bin/wsdd
 sudo dpkg -V wsdd 
-'''
+```
 ### Lessons learnt 
 Package-management commands help me to identify installed software, determine where files came and check whether package files have verification differences
 
 ## 10. Working with command output 
 ### Command or operator and what I have learnt 
-1. 'grep' - Searches text for matching patterns 
-2. 'awk' - Processes and extract information from text
+1. grep - Searches text for matching patterns 
+2. awk - Processes and extract information from text
 3. '|' (pipe) - Passes the output of one command to another
 
 ### Examples
-'''bash
+```bash
 ps aux | grep firefox
 dpkg -l | grep wsdd
-'''
+```
 ### Lessons learnt
 I can combine commands to filter information and make it easier to investigate large amounts of terminal output 
 
