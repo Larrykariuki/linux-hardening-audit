@@ -130,8 +130,8 @@ machine and investigate which processes owns them
 systemctl status NetworkManager
 systemctl list-units --type=service
 ```
-![services 1](screenshots/.Understanding-services.png)
-![services 2](screenshots/.Understanding-services-2.png)
+![services 1](screenshots/Understanding-services.png)
+![services 2](screenshots/Understanding-services-2.png)
 
 ### Lessons learnt
 Services are programs running in the background and can provide functions to the operating system. I can use systemctl to inspect their status
