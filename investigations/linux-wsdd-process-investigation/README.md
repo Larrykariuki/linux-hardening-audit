@@ -55,7 +55,7 @@ The commands used are:
 WSDDs network discovery activity was consistent with the purpose it was intended for
 ![Network investigation 1](../../screenshots/WSDD-network-discover1.png)
 ![Network investigation  2](../../screenshots/WSDD-JOINS-FF02::C.png)
-![Network investigation 3](../../screenshots/Network-investigation-3.png)
+![Network investigation 3](../../screenshots/Network-Investigation-3.png)
 ![Network investigation 4 ](../../screenshots/network-investigation-3b.png)
 
 
