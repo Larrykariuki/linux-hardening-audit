@@ -38,7 +38,7 @@ The commands used:
 - sudo dpkg -V wsdd gvfs-backends
 - Both the wsdd and gvfs-backends were installed packages and the package verification produced no output hence indicating that there was 
 package verification differences that were detected
-
+![package verification](screenshots/Package-verification.png)
 ## 4. Network Investigation
 WSDD supports Web Services Dynamic Discovery (WS-Discovery) which is a small background service (daemon) and not a kernel module that
 handles discovery of windows  computers on the local area network.
@@ -50,7 +50,7 @@ The commands used are:
 - ip -6 maddr show dev wlan0
 - ip -6 route show
 WSDDs network discovery activity was consistent with the purpose it was intended for
-
+  
 
 ## 5. Log Investigation
 The journal contained a lot of errors:
