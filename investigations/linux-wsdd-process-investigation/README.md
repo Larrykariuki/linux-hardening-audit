@@ -36,8 +36,8 @@ The commands used:
 - dpkg -S/usr/libexec/gvfsd-wsdd
 - dpkg -l | grep -E 'gvfs-backends|wsdd'
 - sudo dpkg -V wsdd gvfs-backends
-- Both the wsdd and gvfs-backends were installed packages and the package verification produced no output hence indicating that there was 
-package verification differences that were detected
+- Both the wsdd and gvfs-backends were installed packages and the package verification produced no output hence indicating that there was no
+package verification differences that were detected and the files are unmodified.
 ![package verification](../../screenshots/Package-verification.png)
 ![package verification](../../screenshots/Understanding-installed-packages-2.png)
 
