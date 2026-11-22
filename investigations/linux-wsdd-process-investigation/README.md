@@ -7,9 +7,9 @@
 ## 1. Objective
 
 The purpose of the investigation was to determine whether a running 'wsdd' process on my kali purple operating system (which is Debian-based Linux distribution variant of kali linux, that is preloaded with defensive-security tools for learning and practicing blue-team skills in an isolated homelab), was legitimate or harmful 
-when I ran ss -tulnp the command that lists every port on the machine that is open and waiting for connection,
-I saw two processes that were listening and that was 'wsdd' and ollama. I investigated its parent process, installed packages, network
-activity , executable location and system logs
+when I ran `ss -tulnp` the command that lists every port on the machine that is open and waiting for connection,
+I saw two processes that were listening and that was wsdd and ollama. I investigated `wsdd` parent process, installed packages, network
+activity , executable location and system logs. The `Ollama` listener (port 11434) was already investigated in [Practical Lab 18: Investigating TCP Connection states](       ) in my networking-journey repo. It was bound to `127.0.0.1`, the loopback address, so it only accepts connections from the local machine and poses no threat but this alone does not proof whether the process itself is legitimate because a malicious program can also bind to 127.0.0.1
 
 ## 2. Process Identification
 The process command was
