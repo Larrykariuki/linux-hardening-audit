@@ -38,9 +38,8 @@ The commands used:
 - sudo dpkg -V wsdd gvfs-backends
 - Both the wsdd and gvfs-backends were installed packages and the package verification produced no output hence indicating that there was 
 package verification differences that were detected
-![package verification](../../screenshots/Understanding-installed-packages-2.png)
-
 ![package verification](../../screenshots/Package-verification.png)
+![package verification](../../screenshots/Understanding-installed-packages-2.png)
 
 
 ## 4. Network Investigation
