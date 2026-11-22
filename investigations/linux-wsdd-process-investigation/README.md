@@ -9,7 +9,7 @@
 The purpose of the investigation was to determine whether a running 'wsdd' process on my kali purple operating system (which is Debian-based Linux distribution variant of kali linux, that is preloaded with defensive-security tools for learning and practicing blue-team skills in an isolated homelab), was legitimate or harmful 
 when I ran `ss -tulnp` the command that lists every port on the machine that is open and waiting for connection,
 I saw two processes that were listening and that was wsdd and ollama. I investigated `wsdd` parent process, installed packages, network
-activity , executable location and system logs. The `Ollama` listener (port 11434) was already investigated in [Practical Lab 18:Investigating TCP Connection states](https://github.com/Larrykariuki/NETWORKING-JOURNEY/blob/main/01-Networking%20-%20foundations/20-packet-analysis.md#practical-lab-18-investigating-tcp-connection-states) in my networking-journey repository. It was bound to `127.0.0.1`, the loopback address, so it only accepts connections from the local machine and poses no threat but this alone does not proof whether the process itself is legitimate because a malicious program can also bind itself to `127.0.0.1` for instance to relay traffic locally
+activity , executable location and system logs. The `Ollama` listener (port 11434) was already investigated in [Practical Lab 18:Investigating TCP Connection states](https://github.com/Larrykariuki/NETWORKING-JOURNEY/blob/main/01-Networking%20-%20foundations/20-packet-analysis.md#practical-lab-18-investigating-tcp-connection-states) in my networking-journey repository. It was bound to `127.0.0.1`, the loopback address, so it only accepts connections from the local machine and poses no threat and lowers the exposure however this alone does not prove whether the process itself is legitimate because a malicious program can also bind itself to `127.0.0.1` for instance to relay traffic locally
 
 ## 2. Process Identification
 The process command was
@@ -26,7 +26,7 @@ systemd
       |
       |____gvfsd-wsdd
           |
-          |____python3/usr/bin/wsdd 
+          |____python3 /usr/bin/wsdd 
 ```
 
 ## 3. Package Verification
