@@ -53,8 +53,11 @@ The commands used are:
 - ip -6 maddr show dev wlan0
 - ip -6 route show
 WSDDs network discovery activity was consistent with the purpose it was intended for
-![package verification](../../screenshots/WSDD-network-discover1.png)
-![package verification](../../screenshots/WSDD-JOINS-FF02::C.png)
+![Network investigation 1](../../screenshots/WSDD-network-discover1.png)
+![Network investigation  2](../../screenshots/WSDD-JOINS-FF02::C.png)
+![Network investigation 3](../../screenshots/Network-investigation-3.png)
+![Network investigation 4 ](../../screenshots/network-investigation-3b.png)
+
 
 ## 5. Log Investigation
 The journal contained a lot of errors:
