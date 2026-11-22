@@ -68,7 +68,7 @@ The journal contained a lot of errors:
 - The evidence available shows a network interface or address transition issue and I could not establish the
 exact triggering event, many GVfs PTP errors were also observed but were not identified as wsdd errors
 ![package verification](../../screenshots/Targeted-investigation.png)
-![package verification](../../screenshots/IPV6-IVESTIGATION.png)
+![package verification](../../screenshots/IPV6-INVESTIGATION.png)
 ![package verification](../../screenshots/ipv6-investigation-b.png)
 
 
