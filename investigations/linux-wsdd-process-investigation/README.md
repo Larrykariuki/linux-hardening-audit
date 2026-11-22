@@ -14,7 +14,7 @@ activity , executable location and system logs. The `Ollama` listener (port 1143
 ## 2. Process Identification
 The process command was
 ``` text 
-python3/usr/bin/wsdd
+python3 /usr/bin/wsdd
 ```
 The process was launched through the GVfs desktop file-management services as shown in the process tree below
 ``` text
