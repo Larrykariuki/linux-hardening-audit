@@ -7,7 +7,7 @@
 
 # My Investigations
  - [Browse my investigations](investigations/linux-wsdd-process-investigation)
- - 
+
 # Evidence
 - The screenshots of commands and exercises are stored in the [screenshots folder](screenshots/)
 # My Learning Approach
