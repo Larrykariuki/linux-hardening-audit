@@ -19,12 +19,12 @@ and open ports on linux system and understand what was happening. The following 
 
 ### Examples
 ```bash
-pwd,
-ls,
-ls -la,
-cd ..,
-cd ~,
-mkdir my folder
+pwd
+ls
+ls -la
+cd ..
+cd ~
+mkdir
 ```
 ![ps aux output](screenshots/Navigating-file-system1.png)
 ![pstree output](screenshots/Navigating-the-file-system-2.png)
@@ -110,11 +110,11 @@ sudo lsof -i
 ![network connections and ports](screenshots/Understanding-network-connections-and-open-ports.png)
 
 ### Understanding the options in ss -tulnp:
-1. -t - Represent TCP sockets 
-2. -u - Represents UDP sockets
-3. -l - Listening sockets
-4. -n - Show numerical addresses and port numbers 
-5. -p - show associated processes where permissions allow
+1. t - Represent TCP sockets 
+2. u - Represents UDP sockets
+3. l - Listening sockets
+4. n - Show numerical addresses and port numbers 
+5. p - show associated processes where permissions allow
 
 ### Lessons learnt 
 A listening port is waiting for incoming network communication by inspecting listening ports, I can identify services that may be accepting connections on my 
@@ -122,8 +122,8 @@ machine and investigate which processes owns them
 
 ## 7. Understanding services
 ### Commands and what I learnt 
-1. 'Systemctl status' - Checks the status of a system service 
-2. 'Systemctl list-units --type=service' - Lists loaded service units
+1. Systemctl status - Checks the status of a system service 
+2. Systemctl list-units --type=service - Lists loaded service units
 
 ### Examples 
 ```bash 
