@@ -10,7 +10,6 @@
  - 
 # Evidence
 - The screenshots of commands and exercises are stored in the [screenshots folder](screenshots/)
-- 
 # My Learning Approach
 - I focus on understanding each of the commands, documenting what I observe and explaining what the evidence means.
 - My goal is to develop practical skills in Linux, networking and cybersecurity through consistent learning and hands-on practice
